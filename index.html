@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 7</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="modeloCarro">Qual o modelo do carro?</label>
+            <input type="text" name="modelo" id="modeloCarro" placeholder="Ex: Gol"/>
+        </div>
+        <div>
+            <label for="marcaCarro">Qual a marca do carro?</label>
+            <input type="text" name="marca" id="marcaCarro" placeholder="Ex: Volkswagen"/>
+        </div>
+        <div>
+            <label for="anoCarro">Qual o ano do carro?</label>
+            <input type="text" name="ano" id="anoCarro" placeholder="Ex: 2023"/>
+        </div>
+        <div>
+            <label for="quilometragemCarro">Qual a quilometragem do carro?</label>
+            <input type="text" name="quilometragem" id="quilometragemCarro" placeholder="Ex: 10.000 Km"/>
+        </div>
+        <div>
+            <label for="valorCarro">Qual o valor do carro?</label>
+            <input type="text" name="valor" id="valorCarro" placeholder="Ex: R$ 100.000 "/>
+        </div>
+        <div>
+            <label>O carro é novo ou usado?</label>
+            <label for="new">novo</label>
+            <input type="radio" name="novo" id="new"/>
+            <label for="used">usado</label>
+            <input type="radio" name="usado" id="used"/>
+        </div>
+        <div>
+            <label>Quais adicionais o carro tem ?</label>
+            <label for="AirBag">Air bag</label>
+            <input type="checkbox" name="Adicionais" value="airBag" id="AirBag"/>
+            <label for="Alarme">Alarme</label>
+            <input type="checkbox" name="Adicionais" value="alarme" id="Alarme"/>
+            <label for="ArCondicionado">Ar condicionado</label>
+            <input type="checkbox" name="Adicionais" value="arCondicionado" id="ArCondicionado"/>
+            <label for="Automatico">Cambio automatico</label>
+            <input type="checkbox" name="Adicionais" value="automatico" id="Automatico"/>
+        </div>
+        <div>
+            <label for="fimplaca">Qual o final da placa do carro?</label>
+            <select id="fimplaca" name="listaplaca" form="placaform">
+                <option value="1">2E15</option>
+                <option value="2">0S41</option>
+                <option value="3">1L41</option>
+                <option value="4">9K01</option>
+            </select>
+        </div>
+        <div>
+            <form>
+                <input type="submit"/>
+            </form>
+        </div>
+    </form>
+</body>
+</html>
